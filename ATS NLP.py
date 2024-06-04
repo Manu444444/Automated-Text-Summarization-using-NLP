@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -280,8 +277,6 @@ output_text.pack(pady=10)
 summarizer = pipeline("summarization", model="t5-base", tokenizer="t5-base", framework="pt")
 window.mainloop()
 
-
-# In[ ]:
 
 
 
